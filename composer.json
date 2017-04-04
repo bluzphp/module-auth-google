@@ -4,12 +4,7 @@
   "license": "MIT",
   "description": "bluz google module",
   "require": {
-    "bluzphp/composer-plugin": "~0.2",
-    "bluzphp/module-auth": "~1.0"
-  },
-  "extra": {
-    "bluz": {
-      "module_name": "google"
-    }
+    "bluzphp/composer-plugin": "~2.0",
+    "bluzphp/module-auth": "~2.0"
   }
 }
