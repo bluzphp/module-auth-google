@@ -15,13 +15,16 @@
 Usage
 -------------------------
 ### Install module
-To install the module run the command:
-  
+To install the module run the command:  
 
     $ composer require bluzphp/module-auth-google
 
+### Configure
+Create an application at Developers Console (https://console.developers.google.com), 
+than setup *App ID* and *App Secret* inside *Google* section of the `auth.php`
+configuration.
+
 ### Remove module
 To remove the module, run the command:
-    
 
     $ composer remove bluzphp/module-auth-google
