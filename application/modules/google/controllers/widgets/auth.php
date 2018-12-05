@@ -21,6 +21,6 @@ return function () {
      */
     ?>
     <a href="<?=Router::getUrl('auth', 'auth', ['provider'=> 'google'])?>"
-       class="btn fa fa-google-plus-square fa-2x"></a>
+       class="btn fab fa-google-plus-square fa-2x"></a>
     <?php
 };
