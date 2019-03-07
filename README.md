@@ -1,23 +1,25 @@
 # Module auth-google for Bluz Skeleton
+## Achievements
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bluzphp/main)
+[![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-google.svg?style=flat)](https://php.net/)
 
-### Achievements
+[![Latest Stable Version](https://img.shields.io/packagist/v/bluzphp/module-auth-google.svg?label=version&style=flat)](https://packagist.org/packages/bluzphp/module-auth-google)
 
-[![Build Status](https://travis-ci.org/bluzphp/module-auth-google.svg?branch=master)](https://travis-ci.org/bluzphp/module-auth-google)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bluzphp/module-auth-google/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bluzphp/module-auth-google/?branch=master)
+[![Build Status](https://img.shields.io/travis/bluzphp/module-auth-google/master.svg?style=flat)](https://travis-ci.org/bluzphp/module-auth-google)
 
-[![Latest Stable Version](https://poser.pugx.org/bluzphp/module-auth-google/v/stable)](https://packagist.org/packages/bluzphp/module-auth-google)
-[![Total Downloads](https://poser.pugx.org/bluzphp/module-auth-google/downloads)](https://packagist.org/packages/bluzphp/module-auth-google)
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/bluzphp/module-auth-google.svg?style=flat)](https://scrutinizer-ci.com/g/bluzphp/module-auth-google/)
 
-[![License](https://poser.pugx.org/bluzphp/module-auth-google/license)](https://packagist.org/packages/bluzphp/module-auth-google)
+[![Total Downloads](https://img.shields.io/packagist/dt/bluzphp/module-auth-google.svg?style=flat)](https://packagist.org/packages/bluzphp/module-auth-google)
 
-Usage
--------------------------
+[![License](https://img.shields.io/packagist/l/bluzphp/module-auth-google.svg?style=flat)](https://packagist.org/packages/bluzphp/module-auth-google)
+
+## Usage
 ### Install module
 To install the module run the command:  
 
-    $ composer require bluzphp/module-auth-google
+```bash
+php /vendor/bin/bluzman module:install auth-google
+```
 
 ### Configure
 Create an application at Developers Console (https://console.developers.google.com), 
@@ -27,4 +29,6 @@ configuration.
 ### Remove module
 To remove the module, run the command:
 
-    $ composer remove bluzphp/module-auth-google
+```bash
+php /vendor/bin/bluzman module:remove auth-google
+```

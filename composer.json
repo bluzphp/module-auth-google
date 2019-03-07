@@ -2,8 +2,9 @@
   "name": "bluzphp/module-auth-google",
   "type": "bluz-module",
   "license": "MIT",
-  "description": "bluz google module",
+  "description": "bluz google auth module",
   "require": {
+    "bluzphp/framework": "~7.11",
     "bluzphp/composer-plugin": "~2.1",
     "bluzphp/module-auth": "~2.0"
   }
