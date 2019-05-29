@@ -1,8 +1,6 @@
 # Module auth-google for Bluz Skeleton
 ## Achievements
 
-[![PHP >= 7.1+](https://img.shields.io/packagist/php-v/bluzphp/module-auth-google.svg?style=flat)](https://php.net/)
-
 [![Latest Stable Version](https://img.shields.io/packagist/v/bluzphp/module-auth-google.svg?label=version&style=flat)](https://packagist.org/packages/bluzphp/module-auth-google)
 
 [![Build Status](https://img.shields.io/travis/bluzphp/module-auth-google/master.svg?style=flat)](https://travis-ci.org/bluzphp/module-auth-google)
