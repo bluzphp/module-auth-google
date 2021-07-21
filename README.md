@@ -21,8 +21,13 @@ php ./vendor/bin/bluzman module:install auth-google
 
 ### Configure
 Create an application at Developers Console (https://console.developers.google.com), 
-than setup *App ID* and *App Secret* inside *Google* section of the `auth.php`
+then setup *Client ID* and *Client Secret* inside *Google* section of the `auth.php`
 configuration.
+
+For *Authorized redirect URIs* should use URL like this:
+```
+http(s)://your-domain-here/auth/auth/provider/google
+```
 
 ### Remove module
 To remove the module, run the command:
